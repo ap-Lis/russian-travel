@@ -5,3 +5,7 @@
     grid-auto-rows: 1fr;
     grid-gap: 48px 40px;
 }
+
+.place:last-of-type {
+    padding-bottom: 92px;
+}
