@@ -1,0 +1,11 @@
+.place__url-container {
+    align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+    .place__url-container{
+        padding: 32px 0 32px;
+        margin: 0 auto;
+        max-width: 288px;
+    }
+} 

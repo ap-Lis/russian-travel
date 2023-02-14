@@ -1,0 +1,16 @@
+.place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 26px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs{
+        padding-top: 32px;
+        max-width: 288px;
+        margin: 0 auto;
+    }
+} 
