@@ -5,9 +5,15 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    transition: opacity 2s;
+    transition: opacity 1s;
 }
 
 .place__url-link:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 500px) {
+    .place__url-link{
+        font-size: 12px;
+    }
+} 

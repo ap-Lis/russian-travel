@@ -1,6 +1,6 @@
 .lead__image {
     width: 100%;
-    max-height: 580px;
+    max-height: 615px;
     max-width: 984px;
     display: block;
 }
@@ -8,6 +8,5 @@
 @media screen and (max-width: 1024px) {
     .lead__image{
         max-height: 580px;
-        max-width: 928px;
     }
 } 
