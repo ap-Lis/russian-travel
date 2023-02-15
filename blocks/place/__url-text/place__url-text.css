@@ -6,4 +6,11 @@
     line-height: 170%;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
 }
+
+@media screen and (max-width: 500px) {
+    .place__url-text{
+        font-size: 12px;
+    }
+} 
